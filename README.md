@@ -1,24 +1,27 @@
-# README
+## API ENDPOINTS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### This API will expose the following RESTful endpoints:
 
-Things you may want to cover:
 
-* Ruby version
+----------
 
-* System dependencies
+----------
 
-* Configuration
 
-* Database creation
+**GET** /journal		(List all journals)
 
-* Database initialization
+----------
 
-* How to run the test suite
+**POST** /journal		(Create a new journals)
 
-* Services (job queues, cache servers, search engines, etc.)
+----------
 
-* Deployment instructions
+**PUT** /journal/:id		(Update a journal)
 
-* ...
+----------
+
+**DELETE** /journal/:id		(Delete a journal)
+
+----------
+
+----------

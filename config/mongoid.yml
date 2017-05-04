@@ -82,57 +82,57 @@ development:
          replica_set: name
 
         # Whether to connect to the servers via ssl. (default: false)
-         ssl: true
+         #ssl: true
 
         # The certificate file used to identify the connection against MongoDB.
-         ssl_cert: /path/to/my.cert
+         #ssl_cert: /path/to/my.cert
 
         # The private keyfile used to identify the connection against MongoDB.
         # Note that even if the key is stored in the same file as the certificate,
         # both need to be explicitly specified.
-         ssl_key: /path/to/my.key
+         #ssl_key: /path/to/my.key
 
         # A passphrase for the private key.
-         ssl_key_pass_phrase: password
+         #ssl_key_pass_phrase: password
 
         # Whether or not to do peer certification validation. (default: true)
-         ssl_verify: true
+         #ssl_verify: true
 
         # The file containing a set of concatenated certification authority certifications
         # used to validate certs passed from the other end of the connection.
-         ssl_ca_cert: /path/to/ca.cert
+         #ssl_ca_cert: /path/to/ca.cert
 
 
   # Configure Mongoid specific options. (optional)
-  options:
+  #options:
     # Includes the root model name in json serialization. (default: false)
-     include_root_in_json: false
+     #include_root_in_json: false
 
     # Include the _type field in serialization. (default: false)
-     include_type_for_serialization: false
+     #include_type_for_serialization: false
 
     # Preload all models in development, needed when models use
     # inheritance. (default: false)
-     preload_models: false
+     #preload_models: false
 
     # Raise an error when performing a #find and the document is not found.
     # (default: true)
-     raise_not_found_error: true
+     #raise_not_found_error: true
 
     # Raise an error when defining a scope with the same name as an
     # existing method. (default: false)
-     scope_overwrite_exception: false
+     #scope_overwrite_exception: false
 
     # Use Active Support's time zone in conversions. (default: true)
-     use_activesupport_time_zone: true
+     #use_activesupport_time_zone: true
 
     # Ensure all times are UTC in the app side. (default: false)
-     use_utc: false
+     #use_utc: false
 
     # Set the Mongoid and Ruby driver log levels when not in a Rails
     # environment. The Mongoid logger will be set to the Rails logger
     # otherwise.(default: :info)
-     log_level: :info
+     #log_level: :info
 
     # Application name that is printed to the mongodb logs upon establishing a
     # connection in server versions >= 3.4. Note that the name cannot exceed 128 bytes.

@@ -1,11 +1,9 @@
 ## API ENDPOINTS
 
-#### This API will expose the following RESTful endpoints:
+##### This API will expose the following RESTful endpoints:
 
 
-----------
 
-----------
 
 
 **GET** /journal		(List all journals)
@@ -22,6 +20,4 @@
 
 **DELETE** /journal/:id		(Delete a journal)
 
-----------
 
-----------
